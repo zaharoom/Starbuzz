@@ -19,7 +19,7 @@ public class Drink {
     private Drink(String name, String description, int resourceId) {
         this.name = name;
         this.description = description;
-        this.imageResourceId = imageResourceId;
+        this.imageResourceId = resourceId;
     }
 
     public String getName() {
